@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="Shortcut icon" href="https://i.pinimg.com/736x/81/cf/f4/81cff4a3f256396ca1f2228eaa51b101.jpg" type="image/jpg">
+</head>
+<body>
+  <div class="container">
+    <h1>QR Code Generator</h1>
+    <input type="text" id="text" placeholder="Enter text or URL">
+    <button onclick="generateQRCode()">Generate QR</button>
+    <div id="qrcode"></div>
+    <button id="downloadBtn" onclick="downloadQRCode()">Download QR</button>
+  </div>
+<script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+
+</body>
+</html>
